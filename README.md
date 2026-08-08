@@ -17,6 +17,8 @@ To eliminate this risk without interrupting main production lines, I designed a 
 🔹 Multi-Sensor Fusion: Real-time fusion of Differential Pressure (\Delta P), Turbidity (NTU), and Flow Rates.
 🔹 45-Minute Predictive Lead Time: Warns operators about nozzle clogging risks before thermal deformation occurs.
 🔹 Filter Rupture Detection: Instantly flags catastrophic filter mesh tears (\Delta P < 0.1 \text{ Bar} + High Turbidity).
+
+
 🔹 High ROI: A lightweight ~₹xx Lakhs Edge-AI setup safeguarding Multi-Crore production lots.
 💡 Universal Utility Application:
 While designed for CCM Spray Cages, this physics-driven Edge Analytics logic natively scales across:
@@ -25,3 +27,6 @@ While designed for CCM Spray Cages, this physics-driven Edge Analytics logic nat
 🚗 Automobile Manufacturing (Robotic Welding Cooling Lines)
 📌 Full Case Study, System Architecture, and Working Edge Logic Python Code uploaded on GitHub! (Link in comments)
 #Industry40 #IIoT #PredictiveMaintenance #SteelManufacturing #SolutionArchitect #EdgeAI #SmartManufacturing #OperationalTechnology
+
+
+
