@@ -28,53 +28,7 @@ While designed for CCM Spray Cages, this physics-driven Edge Analytics logic nat
 📌 Full Case Study, System Architecture, and Working Edge Logic Python Code uploaded on GitHub! (Link in comments)
 #Industry40 #IIoT #PredictiveMaintenance #SteelManufacturing #SolutionArchitect #EdgeAI #SmartManufacturing #OperationalTechnology
 
-```mermaid  
-graph TD
-    %% Main Line
-    subgraph MAIN_PROCESS ["🏭 Main CCM Water Circuit"]
-        A[Cooling Water Reservoir] --> B[Main Pump House]
-        B --> C[Main Water Line]
-        C --> D[CCM Secondary Spray Cage Nozzles]
-        D --> E[Billet Solidification / Casting]
-    end
 
-    %% Kidney-Loop Bypass Line
-    subgraph KIDNEY_LOOP ["🔄 Non-Intrusive Modular Kidney-Loop"]
-        C -->|Raw Water Bypass Sample| F[Kidney-Loop Inline Filter]
-        F --> G[Sensor Analytics Cage]
-        G -->|Filtered Return| C
-    end
-
-    %% Sensor Layer
-    subgraph SENSOR_LAYER ["📡 Multi-Sensor Fusion Layer"]
-        G --> S1["Differential Pressure Sensor (ΔP)"]
-        G --> S2["Nephelometric Turbidity Sensor (NTU)"]
-        G --> S3["Ultrasonic Flow Meter (LPM)"]
-    end
-
-    %% Edge Analytics & HMI
-    subgraph EDGE_IT ["💻 Edge-AI & Decision Layer"]
-        S1 -->|Modbus / RS485| H[Python Edge Analytics Engine]
-        S2 -->|Modbus / RS485| H
-        S3 -->|Modbus / RS485| H
-        
-        H -->|Risk Evaluation| I{Health Evaluation}
-        I -->|Status: NORMAL| J[SCADA / HMI Dashboard: System Healthy]
-        I -->|Status: CRITICAL| K[HMI Red Alarm: Nozzle Clogging Risk 85%]
-        I -->|Status: CATASTROPHIC| L[HMI Emergency Siren: FILTER RUPTURED!]
-    end
-
-    %% Styling
-    classDef main fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef bypass fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
-    classDef sensor fill:#e8f5e9,stroke:#388e3c,stroke-width:2px;
-    classDef edge fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
-
-    class A,B,C,D,E main;
-    class F,G bypass;
-    class S1,S2,S3 sensor;
-    class H,I,J,K,L edge;
-```
 
 The Results.
 
