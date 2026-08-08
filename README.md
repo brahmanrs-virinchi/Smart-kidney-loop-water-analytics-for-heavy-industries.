@@ -1,4 +1,53 @@
-# Smart-kidney-loop-water-analytics-for-heavy-industries.
+=================================================================
+  SMART KIDNEY-LOOP IIOT ANALYTICS ENGINE - CCM SPRAY CAGE
+=================================================================
+
+[READING #1]
+|-- Differential Pressure (DP): 0.41 Bar
+|-- Water Turbidity          : 11.4 NTU
+|-- Spray Flow Rate          : 118.0 LPM
+|-- Process Health Status    : [NORMAL]
+|-- Nozzle Clogging Risk     : 0%
+|-- Action Recommendation    : System Healthy. No action required.
+-----------------------------------------------------------------
+
+[READING #2]
+|-- Differential Pressure (DP): 1.62 Bar
+|-- Water Turbidity          : 124.1 NTU
+|-- Spray Flow Rate          : 89.7 LPM
+|-- Process Health Status    : [CRITICAL]
+|-- Nozzle Clogging Risk     : 100%
+|-- Action Recommendation    : High Scale Density! Risk of Nozzle Clogging & Billet Bending!
+-----------------------------------------------------------------
+
+[READING #3]
+|-- Differential Pressure (DP): 0.38 Bar
+|-- Water Turbidity          : 15.1 NTU
+|-- Spray Flow Rate          : 116.2 LPM
+|-- Process Health Status    : [NORMAL]
+|-- Nozzle Clogging Risk     : 0%
+|-- Action Recommendation    : System Healthy. No action required.
+-----------------------------------------------------------------
+
+[READING #4]
+|-- Differential Pressure (DP): 0.39 Bar
+|-- Water Turbidity          : 15.4 NTU
+|-- Spray Flow Rate          : 117.7 LPM
+|-- Process Health Status    : [NORMAL]
+|-- Nozzle Clogging Risk     : 0%
+|-- Action Recommendation    : System Healthy. No action required.
+-----------------------------------------------------------------
+
+[READING #5]
+|-- Differential Pressure (DP): 0.48 Bar
+|-- Water Turbidity          : 15.5 NTU
+|-- Spray Flow Rate          : 121.0 LPM
+|-- Process Health Status    : [NORMAL]
+|-- Nozzle Clogging Risk     : 0%
+|-- Action Recommendation    : System Healthy. No action required.
+-----------------------------------------------------------------
+
+[Program finished]# Smart-kidney-loop-water-analytics-for-heavy-industries.
 Edge-AI Predictive Water Analytics Engine for Continuous Casting Machines (CCM). 
 
 Headline:
