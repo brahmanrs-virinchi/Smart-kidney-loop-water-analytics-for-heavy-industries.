@@ -28,6 +28,7 @@ While designed for CCM Spray Cages, this physics-driven Edge Analytics logic nat
 📌 Full Case Study, System Architecture, and Working Edge Logic Python Code uploaded on GitHub! (Link in comments)
 #Industry40 #IIoT #PredictiveMaintenance #SteelManufacturing #SolutionArchitect #EdgeAI #SmartManufacturing #OperationalTechnology
 
+```mermaid  
 graph TD
     %% Main Line
     subgraph MAIN_PROCESS ["🏭 Main CCM Water Circuit"]
@@ -73,6 +74,7 @@ graph TD
     class F,G bypass;
     class S1,S2,S3 sensor;
     class H,I,J,K,L edge;
+```
 
 The Results.
 
